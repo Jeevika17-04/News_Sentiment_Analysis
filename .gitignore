@@ -1,0 +1,36 @@
+# Ignore Python virtual environment
+virtual/
+venv/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore log and database files
+*.log
+db.sqlite3
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore node modules (in case backend has Node dependencies)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore Django static and media files
+staticfiles/
+media/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Git-related files
+.git/
